@@ -12,7 +12,7 @@ swarm-agent:
   links:
     - consul
   container_name: swarm-agent
-  command: 'join --advertise=<node_ip>:2375 consul://\${CONSUL_PORT_8500_TCP_ADDR}:8500/swarm'
+  command: join --advertise=<node_ip>:2375 consul://${consul_url}:8500/swarm
 swarm-manager:
   image: swarm
   links:
@@ -21,6 +21,6 @@ swarm-manager:
   labels:
     - "SERVICE_4000_NAME=swarm-manager"
     - "SERVICE_4000_CHECK_HTTP=http://$SERVICE_IP:4000"
-  command: manage -H :4000 --replication --advertise ${HOSTNAME}:4000 consul://\${CONSUL_PORT_8500_TCP_ADDR}:8500/swarm
+  command: manage -H :4000 --replication --advertise ${advert_host}:4000 consul://${consul_url}:8500/swarm
   ports:
     - "4000:4000"

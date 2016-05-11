@@ -2,6 +2,17 @@
   name: "Swarm"
   version: 0.0.1
   description: Swarm Cluster
+  questions:
+    - variable: "consul_url"
+      type: string
+      required: true
+      label: "Consul server URL"
+      description: "<host>:<port> of Consul server"
+    - variable: "advert_host"
+      type: string
+      required: true
+      label: "Host for swarm manager to advertise"
+      description: "Either a hostname or IP address"
 swarm-manager:
   scale: 1
 swarm-agent:

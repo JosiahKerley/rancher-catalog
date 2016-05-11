@@ -1,0 +1,2 @@
+consul_url=${CONSUL_PORT_8500_TCP_ADDR}
+advert_host=${HOSTNAME}
