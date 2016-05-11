@@ -140,7 +140,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/0/rancher-compose.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/catalogIcon-alfresco.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/catalogIcon-galera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/icon.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/0/docker-compose.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/0/rancher-compose.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/1/docker-compose.yml" afterPath="" />
@@ -389,7 +389,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/binaryrepo/config.yml" afterPath="$PROJECT_DIR$/templates/binaryrepo/config.yml" />
     </list>
     <ignored path="community-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -923,6 +922,14 @@
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/binaryrepo/catalogIcon-binaryrepo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml">
