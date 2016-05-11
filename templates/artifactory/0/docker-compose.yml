@@ -2,7 +2,6 @@ artifactory:
   image: mattgruter/artifactory
   ports:
    - "8080:8080"
-   - "80:80"
   volumes:
     - /volumes/artifactory/data:/artifactory/data
     - /volumes/artifactory/artifactory-repositories/logs:/artifactory/logs
@@ -11,8 +10,7 @@ artifactory:
 
 artifactory-lb:
   expose:
-  - 80:80
-  - 8080:8080
+  - 80:8080
   tty: true
   image: rancher/load-balancer-service
   links:

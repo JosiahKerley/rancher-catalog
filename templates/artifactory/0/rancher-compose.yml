@@ -19,7 +19,7 @@ artifactory-lb:
   scale: 1
   load_balancer_config: {}
   health_check:
-    port: 80
+    port: 8080
     interval: 2000
     unhealthy_threshold: 3
     healthy_threshold: 2
