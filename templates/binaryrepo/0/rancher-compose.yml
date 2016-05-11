@@ -1,0 +1,22 @@
+.catalog:
+  name: "Binary Repo"
+  version: 0.0.1
+  description: |
+    Binary repository based on nginx
+  questions:
+    - variable: "consul_url"
+      type: string
+      required: false
+      label: "Consul server URL"
+      description: "<host>:<port> of Consul server"
+repo:
+  scale: 3
+repo-lb:
+  scale: 1
+  load_balancer_config: {}
+  health_check:
+    port: 80
+    interval: 2000
+    unhealthy_threshold: 3
+    healthy_threshold: 2
+    response_timeout: 2000

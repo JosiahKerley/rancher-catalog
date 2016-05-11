@@ -1,0 +1,20 @@
+repo:
+  image: josiahkerley/binaryrepo
+  net: none
+  environment:
+    - CONSUL_URL="consul_url"
+    - CONSUL_ENCRYPT="consul_url"
+    - CONSUL_DATACENTER="consul_url"
+  volumes:
+    - /usr/share/nginx/html
+  labels:
+    io.rancher.container.start_once: true
+
+repo-lb:
+  expose:
+  - 80:80
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - repo:repo
+  stdin_open: true
