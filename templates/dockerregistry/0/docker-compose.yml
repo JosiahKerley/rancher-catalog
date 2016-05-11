@@ -1,0 +1,18 @@
+registry:
+  image: registry:2
+  ports:
+    - 5001:5000
+  restart: always
+  net: none
+  labels:
+    io.rancher.container.start_once: true
+
+
+registry-lb:
+  expose:
+  - 5000:5001
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - registry:registry
+  stdin_open: true

@@ -1,0 +1,5 @@
+name: Binary Repository
+description: |
+    HTTP based binary repository
+version: 0.0.1
+category: Repository

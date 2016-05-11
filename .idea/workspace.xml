@@ -13,11 +13,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/entrypoint.ini" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/generate-consul-config.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/catalogIcon-binaryrepo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/rancher-compose.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/catalogIcon-dockerregistry.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/config.yml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-controller.yaml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-master.yaml" afterPath="" />
@@ -419,11 +419,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="buildall.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buildall.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildall.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19951633">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1867995">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -449,6 +472,7 @@
         <option value="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/builds/binaryrepo/nginx.conf" />
         <option value="$PROJECT_DIR$/buildall.sh" />
+        <option value="$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -518,6 +542,46 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dockerregistry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community-catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rancher-catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dockerregistry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community-catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rancher-catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -546,11 +610,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/builds" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/binaryrepo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/builds" />
     </key>
   </component>
   <component name="RunManager">
@@ -906,8 +971,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildall.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19951633">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1867995">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
