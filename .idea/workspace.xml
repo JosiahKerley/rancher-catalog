@@ -13,8 +13,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/entrypoint.ini" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/generate-consul-config.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/catalogIcon-dockerregistry.svg" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-controller.yaml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-master.yaml" afterPath="" />
@@ -394,12 +392,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/0/rancher-compose.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/config.yml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/dockerregistry/0/README.md" afterPath="$PROJECT_DIR$/templates/docker-registry/0/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/docker-registry/0/docker-compose.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/dockerregistry/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/docker-registry/0/rancher-compose.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/dockerregistry/catalogIcon-dockerregistry.svg" afterPath="$PROJECT_DIR$/templates/docker-registry/catalogIcon-dockerregistry.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/dockerregistry/config.yml" afterPath="$PROJECT_DIR$/templates/docker-registry/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildall.sh" afterPath="$PROJECT_DIR$/buildall.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dockerregistry/0/README.md" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dockerregistry/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/rancher-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dockerregistry/config.yml" afterPath="$PROJECT_DIR$/templates/dockerregistry/config.yml" />
     </list>
     <ignored path="community-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -420,64 +420,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="buildall.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buildall.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.51724136">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dockerregistry/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/rancher-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml">
+        <entry file="file://$PROJECT_DIR$/templates/docker-registry/0/rancher-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28019926">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.1867995">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -577,7 +524,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dockerregistry" />
+              <option name="myItemId" value="docker-registry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -595,7 +542,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dockerregistry" />
+              <option name="myItemId" value="docker-registry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -614,32 +561,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binaryrepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binaryrepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -825,9 +746,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1030,7 +951,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/templates/docker-registry/0/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
@@ -1038,7 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/README.md">
+    <entry file="file://$PROJECT_DIR$/templates/docker-registry/0/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.51724136">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -1049,18 +970,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/config.yml">
+    <entry file="file://$PROJECT_DIR$/templates/docker-registry/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/rancher-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1069,6 +982,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28019926">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/docker-registry/0/rancher-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1867995">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="51" />
           <folding />
         </state>
       </provider>
