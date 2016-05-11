@@ -12,7 +12,7 @@ swarm-agent:
   links:
     - consul
   container_name: swarm-agent
-  command: join --advertise=<node_ip>:2375 consul://${CONSUL_PORT_8500_TCP_ADDR}:8500/swarm
+  command: join --advertise=<node_ip>:2375 consul://$${CONSUL_PORT_8500_TCP_ADDR}:8500/swarm
 swarm-manager:
   image: swarm
   links:
