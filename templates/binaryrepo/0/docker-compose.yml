@@ -1,5 +1,5 @@
 repo:
-  image: josiahkerley/binaryrepo
+  build: ./binary-repo/
   net: none
   environment:
     - CONSUL_URL: "consul_url"
