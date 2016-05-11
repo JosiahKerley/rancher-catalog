@@ -2,9 +2,11 @@ repo:
   image: josiahkerley/binaryrepo
   net: none
   environment:
-    CONSUL_URL: "consul_url"
+    - CONSUL_URL: "consul_url"
+    - CONSUL_ENCRYPT: "consul_url"
+    - CONSUL_DATACENTER: "consul_url"
   volumes:
-    - /var/www/html
+    - /usr/share/nginx/html
   labels:
     io.rancher.container.start_once: true
 
