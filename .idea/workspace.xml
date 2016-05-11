@@ -13,11 +13,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/entrypoint.ini" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/generate-consul-config.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builds/binaryrepo/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/rancher-compose.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/catalogIcon-dockerregistry.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/dockerregistry/config.yml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-controller.yaml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-master.yaml" afterPath="" />
@@ -399,6 +397,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/config.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildall.sh" afterPath="$PROJECT_DIR$/buildall.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dockerregistry/0/README.md" afterPath="$PROJECT_DIR$/templates/dockerregistry/0/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dockerregistry/config.yml" afterPath="$PROJECT_DIR$/templates/dockerregistry/config.yml" />
     </list>
     <ignored path="community-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -432,8 +432,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.51724136">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -442,10 +442,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/dockerregistry/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.01867995">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1867995">
+            <state vertical-scroll-proportion="-6.25">
               <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
@@ -473,6 +483,8 @@
         <option value="$PROJECT_DIR$/builds/binaryrepo/nginx.conf" />
         <option value="$PROJECT_DIR$/buildall.sh" />
         <option value="$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/templates/dockerregistry/0/README.md" />
+        <option value="$PROJECT_DIR$/templates/dockerregistry/config.yml" />
       </list>
     </option>
   </component>
@@ -977,10 +989,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.51724136">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -988,10 +1008,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/0/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/templates/dockerregistry/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1867995">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.01867995">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>

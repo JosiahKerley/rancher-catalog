@@ -1,5 +1,4 @@
-name: Binary Repository
-description: |
-    HTTP based binary repository
+name: Docker Registry
+description: Basic Docker Registry
 version: 0.0.1
 category: Repository
