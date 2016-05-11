@@ -8,9 +8,11 @@
       required: true
       label: "Consul server URL"
       description: "<host>:<port> of Consul server"
+      default: '$CONSUL_PORT_8500_TCP_ADDR'
     - variable: "advert_host"
       type: string
       required: true
+      default: '$HOSTNAME'
       label: "Host for swarm manager to advertise"
       description: "Either a hostname or IP address"
 swarm-manager:
