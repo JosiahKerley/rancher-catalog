@@ -2,11 +2,391 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a130a05b-4708-4ce1-9e6a-c51da0003049" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/catalogIcon-galera.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/binaryrepo/config.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-master.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-sec-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/catalogIcon-mongodb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/0/cassandra-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/0/cassandra-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/catalogIcon-cassandra.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/ghost-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/ghost.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/mysql-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/mysql.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/catalogIcon-ghost.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/frontend-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/frontend-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-master-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-master-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-slave-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-slave-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/catalogIcon-guestbook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/0/minecraft-svc.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/0/minecraft.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/catalogIcon-minecraft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/rabbitmq-rc.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/rabbitmq-svc.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/catalogIcon-rabbitmq.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-master.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-rc.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-sentinel-rc.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-sentinel-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/catalogIcon-redis.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/redis/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-master-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-master-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-webui.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-worker-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/zeppelin-controller.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/zeppelin-service.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/catalogIcon-spark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/spark/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/mysql.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/wordpress.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/catalogIcon-wordpress.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/aurora/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/aurora/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/aurora/catalogIcon-aurora.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/aurora/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/chronos/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/chronos/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/chronos/catalogIcon-chronos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/chronos/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/catalogIcon-elasticsearch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/kafka/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/kafka/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/kafka/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/kafka/catalogIcon-kafka.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/kafka/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/marathon/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/marathon/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/marathon/catalogIcon-marathon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/marathon/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/mesos/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/mesos/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/mesos/catalogIcon-mesos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/mesos/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/cassandra/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/cassandra/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/cassandra/catalogIcon-cassandra.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/cassandra/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/ghost/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/ghost/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/ghost/catalogIcon-ghost.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/ghost/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/scylla/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/scylla/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/scylla/catalogIcon-scylla.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/scylla/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/wordpress/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/wordpress/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/wordpress/catalogIcon-wordpress.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/wordpress/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/catalogIcon-mongodb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/MongoDB/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/Prometheus/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/Prometheus/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/Prometheus/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/Prometheus/catalogIcon-prometheus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/Prometheus/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/catalogIcon-alfresco.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/alfresco/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/catalogIcon-galera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/2/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/2/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/catalogIcon-cloudflare.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/cloudflare/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/consul/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/consul/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/consul/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/consul/catalogIcon-consul.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/consul/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/convoy-gluster/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/convoy-gluster/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/convoy-gluster/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/convoy-gluster/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/convoy-gluster/catalogIcon-convoy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/convoy-gluster/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/datadog/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/datadog/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/datadog/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/datadog/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/datadog/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/datadog/catalogIcon-datadog.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/datadog/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dnsimple/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dnsimple/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dnsimple/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dnsimple/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dnsimple/catalogIcon-dnsimple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/dnsimple/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/catalogIcon-droneio.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/drone/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/droneworkers/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/droneworkers/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/droneworkers/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/droneworkers/catalogIcon-droneio.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/droneworkers/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ecr/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ecr/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ecr/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ecr/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ecr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ecr/catalogIcon-ecr.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ecr/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch-2/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch-2/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch-2/catalogIcon-elasticsearch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch-2/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch/catalogIcon-elasticsearch.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/elasticsearch/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/etcd-ha/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/etcd-ha/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/etcd-ha/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/etcd-ha/catalogIcon-etcd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/etcd-ha/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/f5/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/f5/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/f5/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/f5/catalogIcon-f5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/f5/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/galera/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/galera/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/galera/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/galera/catalogIcon-galera.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/galera/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ghost/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ghost/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ghost/catalogIcon-ghost.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/ghost/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gitlab/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gitlab/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gitlab/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gitlab/catalogIcon-gitlab.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gitlab/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/glusterfs/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/glusterfs/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/glusterfs/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/glusterfs/catalogIcon-glusterfs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/glusterfs/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-agent/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-agent/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-agent/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-agent/catalogIcon-gocd-agent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-agent/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-server/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-server/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-server/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-server/catalogIcon-gocd-server.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gocd-server/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gogs/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gogs/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gogs/catalogIcon-gogs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/gogs/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/hadoop/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/hadoop/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/hadoop/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/hadoop/catalogIcon-hadoop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/hadoop/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/2/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/2/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/catalogIcon-janitor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/janitor/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-ci/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-ci/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-ci/catalogIcon-jenkins-ci.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-ci/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-swarm/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-swarm/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-swarm/1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-swarm/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-swarm/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-swarm/catalogIcon-jenkins-ci.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/jenkins-swarm/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kafka/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kafka/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kafka/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kafka/catalogIcon-kafka.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kafka/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kibana/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kibana/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kibana/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kibana/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kibana/catalogIcon-kibana.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/kibana/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/catalogIcon-letsencrypt0.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/letsencrypt/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/catalogIcon-gliderlabs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logspout/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logstash/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logstash/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logstash/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logstash/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logstash/catalogIcon-logstash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/logstash/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/minecraft/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/minecraft/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/minecraft/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/minecraft/catalogIcon-minecraft.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/minecraft/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nuxeo/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nuxeo/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nuxeo/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nuxeo/catalogIcon-nuxeo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nuxeo/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/odoo/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/odoo/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/odoo/catalogIcon-odoo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/odoo/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/catalogIcon-openvpn-httpbasic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/catalogIcon-openvpn-httpdigest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-ldap/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-ldap/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-ldap/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-ldap/catalogIcon-openvpn-ldap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/openvpn-ldap/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/owncloud/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/owncloud/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/owncloud/catalogIcon-owncloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/owncloud/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pointhq/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pointhq/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pointhq/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pointhq/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pointhq/catalogIcon-pointhq.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/pointhq/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/registry/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/registry/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/registry/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/registry/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/registry/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/registry/catalogIcon-registry.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/registry/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/rocket-chat/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/rocket-chat/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/rocket-chat/catalogIcon-rocket.chat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/rocket-chat/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig-cloud/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig-cloud/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig-cloud/catalogIcon-sysdig-cloud.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig-cloud/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig/catalogIcon-sysdig.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/sysdig/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/taiga/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/taiga/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/taiga/catalogIcon-taiga.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/taiga/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/weavescope/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/weavescope/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/weavescope/1/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/weavescope/1/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/weavescope/catalogIcon-weavescope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/weavescope/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wekan/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wekan/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wekan/catalogIcon-wekan.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wekan/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wekan/wekan-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wordpress/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wordpress/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wordpress/catalogIcon-wordpress.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/wordpress/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/zookeeper/config.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/binaryrepo/config.yml" afterPath="$PROJECT_DIR$/templates/binaryrepo/config.yml" />
     </list>
     <ignored path="community-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +406,7 @@
     <favorites_list name="community-catalog" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_catalog.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/integration/core/test_catalog.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,21 +419,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14510278">
+            <state vertical-scroll-proportion="-4.137931">
               <caret line="8" column="112" selection-start-line="8" selection-start-column="112" selection-end-line="8" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalogIcon-galera.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/binaryrepo/catalogIcon-galera.svg">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.0344827">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/binaryrepo/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -68,11 +484,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/binaryrepo/0/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/templates/binaryrepo/config.yml" />
+        <option value="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" />
+        <option value="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="947" />
@@ -109,6 +528,10 @@
               <option name="myItemId" value="community-catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -116,7 +539,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
+              <option name="myItemId" value="rancher-catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -126,21 +549,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
+              <option name="myItemId" value="rancher-catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -158,7 +567,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
+              <option name="myItemId" value="rancher-catalog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -176,9 +585,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -331,24 +743,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -371,18 +783,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/binaryrepo/catalogIcon-galera.svg">
+    <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="112" selection-start-line="8" selection-start-column="112" selection-end-line="8" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/core/test_catalog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14510278">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/core/test_catalog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.drone.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/binaryrepo/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931">
           <caret line="8" column="112" selection-start-line="8" selection-start-column="112" selection-end-line="8" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0344827">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
           <folding />
         </state>
       </provider>
