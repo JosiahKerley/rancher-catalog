@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a130a05b-4708-4ce1-9e6a-c51da0003049" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/rundeck/0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/rundeck/0/rancher-compose.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/rundeck/catalogIcon-rundeck.svg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/rundeck/config.yml" />
@@ -14,6 +13,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/config.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildall.sh" afterPath="$PROJECT_DIR$/buildall.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml" />
     </list>
     <ignored path="community-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,16 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/artifactory/0/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/rundeck/0/README.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,26 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/rundeck/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05603985">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/rundeck/0/rancher-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/artifactory/0/rancher-compose.yml">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.09339975">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -124,11 +94,11 @@
         <option value="$PROJECT_DIR$/templates/artifactory/config.yml" />
         <option value="$PROJECT_DIR$/templates/artifactory/0/rancher-compose.yml" />
         <option value="$PROJECT_DIR$/templates/artifactory/0/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/templates/rundeck/0/rancher-compose.yml" />
         <option value="$PROJECT_DIR$/templates/rundeck/0/README.md" />
         <option value="$PROJECT_DIR$/templates/rundeck/config.yml" />
         <option value="$PROJECT_DIR$/templates/rundeck/catalogIcon-rundeck.svg" />
+        <option value="$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -635,34 +605,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/artifactory/0/rancher-compose.yml">
+    <entry file="file://$PROJECT_DIR$/templates/rundeck/catalogIcon-rundeck.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9637243">
+          <caret line="747" column="6" selection-start-line="747" selection-start-column="6" selection-end-line="747" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rundeck/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0747198">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/artifactory/0/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
+        <state vertical-scroll-proportion="0.13075966">
           <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/templates/artifactory/0/rancher-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rundeck/0/rancher-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.31755915">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -678,18 +648,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rundeck/catalogIcon-rundeck.svg">
+    <entry file="file://$PROJECT_DIR$/templates/rundeck/0/rancher-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9637243">
-          <caret line="747" column="6" selection-start-line="747" selection-start-column="6" selection-end-line="747" selection-end-column="6" />
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rundeck/config.yml">
+    <entry file="file://$PROJECT_DIR$/templates/rundeck/0/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05603985">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.09339975">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding />
         </state>
       </provider>

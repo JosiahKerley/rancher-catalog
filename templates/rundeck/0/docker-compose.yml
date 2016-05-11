@@ -3,7 +3,7 @@ web:
   environment:
     RUNDECK_DATABASE_ENGINE: mysql
     RUNDECK_INITIAL_ADMIN_PASSWORD: apslrocks
-    RUNDECK_SERVER_URL: ${rundeck_url}
+    RUNDECK_SERVER_URL: "${rundeck_url}"
     RUNDECK_MYSQL_HOST: mysql
     RUNDECK_MYSQL_DATABASE: rundeckdb
     RUNDECK_MYSQL_USER: urundeck
