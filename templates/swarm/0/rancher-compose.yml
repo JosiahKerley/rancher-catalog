@@ -4,4 +4,5 @@
   description: Swarm Cluster
 swarm-manager:
   scale: 1
-
+swarm-agent:
+  scale: 3
