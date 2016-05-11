@@ -15,12 +15,4 @@
       description: "Generated with `consul keygen`"
 artifactory:
   scale: 1
-artifactory-lb:
-  scale: 1
-  load_balancer_config: {}
-  health_check:
-    port: 8080
-    interval: 2000
-    unhealthy_threshold: 3
-    healthy_threshold: 2
-    response_timeout: 2000
+
