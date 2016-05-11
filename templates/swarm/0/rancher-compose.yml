@@ -2,6 +2,6 @@
   name: "Swarm"
   version: 0.0.1
   description: Swarm Cluster
-swarm-agent:
-  scale: -1
+swarm-manager:
+  scale: 1
 
