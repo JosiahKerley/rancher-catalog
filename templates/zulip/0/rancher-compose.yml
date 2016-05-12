@@ -1,0 +1,80 @@
+.catalog:
+  name: "Zulip"
+  version: 0.0.1
+  description: Zulip chatOps
+  questions:
+
+    - variable: "fqdn"
+      type: string
+      required: true
+      default: 'zulip.localdomain'
+      label: "FQDN"
+      description: "FQDN for virtual host"
+
+    - variable: "domain"
+      type: string
+      required: true
+      default: 'localdomain'
+      label: "FQDN"
+      description: "FQDN for virtual host"
+
+
+    - variable: "db_name"
+      type: string
+      required: true
+      default: 'zulip'
+      label: "Database Name"
+      description: "Name of database for Zulip"
+
+
+    - variable: "db_username"
+      type: string
+      required: true
+      default: 'zulip'
+      label: "Database Username"
+      description: "Zulip database username"
+
+    - variable: "db_password"
+      type: string
+      required: true
+      default: 'zulip'
+      label: "Database Password"
+      description: "Zulip database username password"
+
+
+    - variable: "mq_username"
+      type: string
+      required: true
+      default: 'zulip'
+      label: "Message Queue Username"
+      description: "Zulip message queue username"
+
+    - variable: "mq_password"
+      type: string
+      required: true
+      default: 'zulip'
+      label: "Message Queue Password"
+      description: "Zulip message queue username password"
+
+
+    - variable: "volume_root"
+      type: string
+      required: true
+      default: '/mnt/dockervolumes'
+      label: "Docker Volume Mount Root"
+      description: "Mount root for persistant docker volume data"
+
+
+
+zulip:
+  scale: 3
+lb:
+  load_balancer_config:
+    haproxy_config: {}
+  default_cert: load-balancer
+  health_check:
+    port: 42
+    interval: 2000
+    unhealthy_threshold: 3
+    healthy_threshold: 2
+    response_timeout: 2000

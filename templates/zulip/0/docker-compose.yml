@@ -1,0 +1,67 @@
+database:
+  image: "quay.io/galexrt/zulip-postgresql-tsearchextras:latest"
+  environment:
+    DB_NAME: ${db_name}
+    DB_USER: ${db_username}
+    DB_PASS: ${db_password}
+  volumes:
+    - "${volume_root}/postgresql/data:/var/lib/postgresql:rw"
+memcached:
+  image: "quay.io/sameersbn/memcached:latest"
+  restart: always
+rabbitmq:
+  image: "rabbitmq:3.5.5"
+  hostname: zulip-rabbit
+  restart: always
+  environment:
+      RABBITMQ_DEFAULT_USER: "${mq_username}"
+      RABBITMQ_DEFAULT_PASS: "${mq_password}"
+redis:
+  image: "quay.io/sameersbn/redis:latest"
+  volumes:
+    - "/opt/docker/zulip/redis:/var/lib/redis:rw"
+zulip:
+  image: "quay.io/galexrt/zulip:v1.3.10-1"
+  ports:
+    - "80:80"
+    - "443:443"
+  links:
+    - database
+    - memcached
+    - rabbitmq
+    - redis
+  environment:
+    DB_HOST: "database"
+    DB_USER: "${db_username}"
+    DB_PASS: "${db_password}"
+    SETTING_MEMCACHED_LOCATION: "memcached:11211"
+    SETTING_RABBITMQ_HOST: "rabbitmq"
+    SETTING_REDIS_HOST: "redis"
+    SECRETS_email_password: "123456789"
+    SECRETS_rabbitmq_password: "zulip"
+    SETTING_EXTERNAL_HOST: "${fqdn}"
+    SETTING_ZULIP_ADMINISTRATOR: "admin@${domain}"
+    SETTING_ADMIN_DOMAIN: "${domain}"
+    SETTING_NOREPLY_EMAIL_ADDRESS: "noreply@${domain}"
+    SETTING_DEFAULT_FROM_EMAIL: "Admin <noreply@${domain}>"
+    SETTING_EMAIL_HOST: "smtp.${domain}"
+    SETTING_EMAIL_HOST_USER: "noreply@${domain}"
+    ZULIP_AUTH_BACKENDS: "EmailAuthBackend"
+    ZULIP_USER_EMAIL: "team@${domain}"
+    ZULIP_USER_PASS: "zulip"
+    ZULIP_USER_DOMAIN: "${domain}"
+  volumes:
+    - "${volume_root}/zulip:/data:rw"
+lb:
+  ports:
+  - 443:80
+  labels:
+    io.rancher.scheduler.global: 'true'
+    io.rancher.loadbalancer.ssl.ports: '443'
+    io.rancher.scheduler.affinity:host_label: role=${node_label}
+    io.rancher.loadbalancer.target.repo-lb: ${fqdn}
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - zulip:zulip
+  stdin_open: true
