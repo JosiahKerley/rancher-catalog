@@ -6,7 +6,7 @@ db:
   - ${cluster_volume_path}/db:/var/lib/mysql
 lb:
   ports:
-  - 443:80
+  - 443:5000
   labels:
     io.rancher.scheduler.global: 'true'
     io.rancher.loadbalancer.ssl.ports: '443'
@@ -19,7 +19,7 @@ lb:
   stdin_open: true
 web:
   ports:
-  - 80:80/tcp
+  - 5000
   environment:
     DB_USER: root
     DB_PASS: ${mysql_root_password}
