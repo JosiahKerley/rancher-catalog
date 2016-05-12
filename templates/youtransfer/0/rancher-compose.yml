@@ -21,7 +21,7 @@
     - variable: "cluster_volume_path"
       type: string
       required: true
-      default: '/mnt/dockervolumes/etherpad'
+      default: '/mnt/dockervolumes/youtransfer'
       label: "Volume Path"
       description: "Cluster volume shared data mount path"
 
