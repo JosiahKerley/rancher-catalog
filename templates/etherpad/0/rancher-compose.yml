@@ -4,6 +4,20 @@
   description: Etherpad notebook
   questions:
 
+    - variable: "fqdn"
+      type: string
+      required: true
+      default: 'etherpad.localdomain'
+      label: "FQDN"
+      description: "FQDN for virtual host"
+
+    - variable: "node_label"
+      type: string
+      required: true
+      default: 'frontdoor'
+      label: "Node Role Label"
+      description: "Node role label for loadbalancer"
+
     - variable: "cluster_volume_path"
       type: string
       required: true
