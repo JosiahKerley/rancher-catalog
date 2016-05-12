@@ -1,0 +1,41 @@
+.catalog:
+  name: "Etherpad"
+  version: 0.0.1
+  description: Etherpad notebook
+  questions:
+
+    - variable: "cluster_volume_path"
+      type: string
+      required: true
+      default: '/mnt/dockervolumes/etherpad'
+      label: "Volume Path"
+      description: "Cluster volume shared data mount path"
+
+    - variable: "admin_username"
+      type: string
+      required: true
+      default: 'admin'
+      label: "Admin Username"
+      description: "Etherpad administrative user name"
+
+    - variable: "admin_password"
+      type: string
+      required: true
+      default: 'password1'
+      label: "Admin Password"
+      description: "Etherpad administrative user password"
+
+    - variable: "consul_url"
+      type: string
+      required: false
+      label: "Consul server URL"
+      description: "<host>:<port> of Consul server"
+
+    - variable: "consul_encrypt"
+      type: string
+      required: false
+      label: "Consul encryption key"
+      description: "Generated with `consul keygen`"
+
+web:
+  scale: 3

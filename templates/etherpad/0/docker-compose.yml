@@ -1,0 +1,19 @@
+web:
+  image: indiehosters/etherpad
+  environment:
+    - ETHERPAD_ADMIN_PASSWORD=${admin_password}
+    - ETHERPAD_ADMIN_USER=${admin_username}
+    - ETHERPAD_PORT=80
+  ports:
+    - 80:80
+  volumes:
+    - ${cluster_volume_path}:/opt/etherpad-lite/var
+  links:
+    - db:mysql
+
+db:
+  image: mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD
+  volumes:
+    - ./data/mysql:/var/lib/mysql
