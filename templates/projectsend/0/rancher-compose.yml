@@ -1,7 +1,7 @@
 .catalog:
   name: "ProjectSend"
   version: 0.0.1
-  description: Etherpad notebook
+  description: ProjectSend file share
   questions:
 
     - variable: "fqdn"

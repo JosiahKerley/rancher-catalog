@@ -1,13 +1,13 @@
 .catalog:
-  name: "Etherpad"
+  name: "YouTransfer"
   version: 0.0.1
-  description: Etherpad notebook
+  description: YouTransfer file share
   questions:
 
     - variable: "fqdn"
       type: string
       required: true
-      default: 'etherpad.localdomain'
+      default: 'youtransfer.localdomain'
       label: "FQDN"
       description: "FQDN for virtual host"
 
@@ -24,20 +24,6 @@
       default: '/mnt/dockervolumes/etherpad'
       label: "Volume Path"
       description: "Cluster volume shared data mount path"
-
-    - variable: "admin_username"
-      type: string
-      required: true
-      default: 'admin'
-      label: "Admin Username"
-      description: "Etherpad administrative user name"
-
-    - variable: "admin_password"
-      type: string
-      required: true
-      default: 'password1'
-      label: "Admin Password"
-      description: "Etherpad administrative user password"
 
     - variable: "mysql_root_password"
       type: string
