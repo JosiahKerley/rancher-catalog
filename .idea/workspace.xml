@@ -6,6 +6,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose_conflict-20160511-185155.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/projectsend/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/projectsend/0/rancher-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" />
     </list>
     <ignored path="community-catalog.iws" />
@@ -26,18 +27,7 @@
     <favorites_list name="community-catalog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2615193">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,9 +72,9 @@
         <option value="$PROJECT_DIR$/templates/projectsend/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/templates/kaltura/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/templates/youtransfer/config.yml" />
-        <option value="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" />
         <option value="$PROJECT_DIR$/templates/projectsend/0/rancher-compose.yml" />
+        <option value="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" />
+        <option value="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -299,6 +289,9 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="Docker Deployment">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -717,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39227894">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/projectsend/0/rancher-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7098381">
@@ -733,10 +718,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0373599">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2615193">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.76587796">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding />
         </state>
       </provider>

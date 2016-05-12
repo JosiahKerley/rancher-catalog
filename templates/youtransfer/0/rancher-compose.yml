@@ -39,7 +39,7 @@ lb:
     haproxy_config: {}
   default_cert: load-balancer
   health_check:
-    port: 42
+    port: 5000
     interval: 2000
     unhealthy_threshold: 3
     healthy_threshold: 2
