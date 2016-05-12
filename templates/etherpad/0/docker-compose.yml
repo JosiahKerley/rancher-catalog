@@ -1,28 +1,31 @@
-web:
-  image: indiehosters/etherpad
-  environment:
-    - ETHERPAD_ADMIN_PASSWORD=${admin_password}
-    - ETHERPAD_ADMIN_USER=${admin_username}
-    - ETHERPAD_PORT=80
-  ports:
-    - 80:80
-  volumes:
-    - ${cluster_volume_path}/web:/opt/etherpad-lite/var
-  links:
-    - db:mysql
-
 db:
-  image: mysql
   environment:
-    - MYSQL_ROOT_PASSWORD=${mysql_root_password}
+    MYSQL_ROOT_PASSWORD: ${mysql_root_password}
+  image: mysql
   volumes:
-    - ${cluster_volume_path}/db:/var/lib/mysql
-
-repo-lb:
-  expose:
-  - 80:80
+  - ${cluster_volume_path}/db:/var/lib/mysql
+lb:
+  ports:
+  - 443:80
+  labels:
+    io.rancher.scheduler.global: 'true'
+    io.rancher.loadbalancer.ssl.ports: '443'
+    io.rancher.scheduler.affinity:host_label: role=${node_label}
+    io.rancher.loadbalancer.target.repo-lb: ${fqdn}
   tty: true
   image: rancher/load-balancer-service
   links:
-  - web
+  - web:web
   stdin_open: true
+web:
+  ports:
+  - 80:80/tcp
+  environment:
+    ETHERPAD_ADMIN_PASSWORD: ${admin_password}
+    ETHERPAD_ADMIN_USER: ${admin_username}
+    ETHERPAD_PORT: '80'
+  image: indiehosters/etherpad
+  links:
+  - db:mysql
+  volumes:
+  - ${cluster_volume_path}/web:/opt/etherpad-lite/var
