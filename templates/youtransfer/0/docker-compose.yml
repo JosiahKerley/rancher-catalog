@@ -15,3 +15,6 @@ web:
   ports:
   - 5000
   image: remie/youtransfer:stable
+  volumes:
+    - ${cluster_volume_path}/uploads:/opt/youtransfer/uploads
+    - ${cluster_volume_path}/config:/opt/youtransfer/config
