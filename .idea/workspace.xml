@@ -9,28 +9,27 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devel/kaltura/config.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/swarm/0/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/swarm/config.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/devel/projectsend/0/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/devel/projectsend/0/docker-compose.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/devel/projectsend/0/rancher-compose.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/devel/projectsend/catalogIcon-projecticon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/devel/projectsend/config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/devel/youtransfer/0/docker-compose_conflict-20160511-194908.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/devel/youtransfer/catalogIcon-youshare.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/docker-compose.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/rancher-compose.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/catalogIcon-binaryrepo.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/projectsend/0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/projectsend/0/docker-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/projectsend/0/rancher-compose.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/projectsend/catalogIcon-projecticon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/projectsend/config.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/swarm/0/answers.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose_conflict-20160511-194908.yml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/devel/youtransfer/0/README.md" afterPath="$PROJECT_DIR$/templates/youtransfer/0/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/devel/youtransfer/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/devel/youtransfer/config.yml" afterPath="$PROJECT_DIR$/templates/youtransfer/config.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/youtransfer/catalogIcon-youshare.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/youtransfer/0/README.md" afterPath="$PROJECT_DIR$/devel/youtransfer/0/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" afterPath="$PROJECT_DIR$/devel/youtransfer/0/docker-compose.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/devel/youtransfer/0/rancher-compose.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/youtransfer/config.yml" afterPath="$PROJECT_DIR$/devel/youtransfer/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildall.sh" afterPath="$PROJECT_DIR$/buildall.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/swarm/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/swarm/0/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/swarm/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/swarm/0/rancher-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
     </list>
     <ignored path="community-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +49,105 @@
     <favorites_list name="community-catalog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/youtransfer/0/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/youtransfer/0/rancher-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose_conflict-20160511-194908.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/youtransfer/0/docker-compose_conflict-20160511-194908.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/youtransfer/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalogIcon-youshare.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/youtransfer/catalogIcon-youshare.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/projectsend/0/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/projectsend/0/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/projectsend/0/rancher-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devel/projectsend/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalogIcon-projecticon.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/devel/projectsend/catalogIcon-projecticon.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,46 +264,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtransfer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="youtransfer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -219,50 +276,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="devel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaltura" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaltura" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binaryrepo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -279,8 +292,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/devel" />
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/builds" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -743,7 +756,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projectsend/0/README.md">
+    <entry file="file://$PROJECT_DIR$/devel/youtransfer/0/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -754,7 +767,55 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projectsend/0/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/devel/youtransfer/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devel/youtransfer/0/rancher-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devel/youtransfer/0/docker-compose_conflict-20160511-194908.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devel/youtransfer/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devel/youtransfer/catalogIcon-youshare.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devel/projectsend/0/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devel/projectsend/0/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
@@ -762,7 +823,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projectsend/0/rancher-compose.yml">
+    <entry file="file://$PROJECT_DIR$/devel/projectsend/0/rancher-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -770,7 +831,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projectsend/config.yml">
+    <entry file="file://$PROJECT_DIR$/devel/projectsend/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
@@ -778,44 +839,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/youtransfer/catalogIcon-youshare.png">
+    <entry file="file://$PROJECT_DIR$/devel/projectsend/catalogIcon-projecticon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/youtransfer/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05603985">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35491905">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31755915">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
