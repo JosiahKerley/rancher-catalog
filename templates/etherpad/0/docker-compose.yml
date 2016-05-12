@@ -17,3 +17,12 @@ db:
     - MYSQL_ROOT_PASSWORD=${mysql_root_password}
   volumes:
     - ${cluster_volume_path}/db:/var/lib/mysql
+
+repo-lb:
+  expose:
+  - 80:80
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - web
+  stdin_open: true

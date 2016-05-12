@@ -46,3 +46,12 @@
 
 web:
   scale: 3
+web-lb:
+  scale: 1
+  load_balancer_config: {}
+  health_check:
+    port: 80
+    interval: 2000
+    unhealthy_threshold: 3
+    healthy_threshold: 2
+    response_timeout: 2000
