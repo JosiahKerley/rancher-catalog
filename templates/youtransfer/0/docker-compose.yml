@@ -13,9 +13,5 @@ lb:
   stdin_open: true
 web:
   ports:
-  - 80:80/tcp
-  environment:
-    ETHERPAD_ADMIN_PASSWORD: ${admin_password}
-    ETHERPAD_ADMIN_USER: ${admin_username}
-    ETHERPAD_PORT: '80'
+  - 5000
   image: remie/youtransfer:stable

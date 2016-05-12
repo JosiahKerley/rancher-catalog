@@ -10,7 +10,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/swarm/0/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/swarm/config.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/youtransfer/0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/youtransfer/config.yml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/binaryrepo/0/README.md" afterPath="" />
@@ -23,6 +22,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildall.sh" afterPath="$PROJECT_DIR$/buildall.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/swarm/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/swarm/0/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/swarm/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/swarm/0/rancher-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
     </list>
     <ignored path="community-catalog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +42,18 @@
     <favorites_list name="community-catalog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31755915">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,12 +94,12 @@
         <option value="$PROJECT_DIR$/templates/etherpad/config.yml" />
         <option value="$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/templates/etherpad/0/rancher-compose.yml" />
-        <option value="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/templates/youtransfer/0/rancher-compose.yml" />
         <option value="$PROJECT_DIR$/templates/youtransfer/config.yml" />
         <option value="$PROJECT_DIR$/templates/projectsend/config.yml" />
         <option value="$PROJECT_DIR$/templates/projectsend/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/templates/projectsend/0/rancher-compose.yml" />
+        <option value="$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -178,64 +189,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="youtransfer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="swarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectsend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="community-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rancher-catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectsend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -440,9 +393,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -718,14 +671,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31755915">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/youtransfer/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05603985">
@@ -773,6 +718,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.01867995">
           <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/youtransfer/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31755915">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
