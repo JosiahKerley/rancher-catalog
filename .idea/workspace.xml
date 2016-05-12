@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a130a05b-4708-4ce1-9e6a-c51da0003049" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/etherpad/0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/etherpad/0/rancher-compose.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/etherpad/config.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/swarm/0/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/swarm/config.yml" />
@@ -16,6 +14,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/swarm/0/answers.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildall.sh" afterPath="$PROJECT_DIR$/buildall.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/etherpad/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/etherpad/0/rancher-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/swarm/0/docker-compose.yml" afterPath="$PROJECT_DIR$/templates/swarm/0/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/swarm/0/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/swarm/0/rancher-compose.yml" />
     </list>
@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/etherpad/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05603985">
+            <state vertical-scroll-proportion="-1.875">
               <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
@@ -64,18 +64,18 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/etherpad/0/rancher-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24283935">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -120,8 +120,8 @@
         <option value="$PROJECT_DIR$/templates/swarm/0/rancher-compose.yml" />
         <option value="$PROJECT_DIR$/templates/etherpad/0/README.md" />
         <option value="$PROJECT_DIR$/templates/etherpad/config.yml" />
-        <option value="$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml" />
         <option value="$PROJECT_DIR$/templates/etherpad/0/rancher-compose.yml" />
+        <option value="$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -642,26 +642,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/etherpad/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/etherpad/0/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/etherpad/0/rancher-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/etherpad/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05603985">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.24283935">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding />
         </state>
       </provider>

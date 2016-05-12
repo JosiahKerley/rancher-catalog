@@ -25,6 +25,13 @@
       label: "Admin Password"
       description: "Etherpad administrative user password"
 
+    - variable: "mysql_root_password"
+      type: string
+      required: true
+      default: 'password1'
+      label: "MySQL Root Password"
+      description: "MySQL administrative user password"
+
     - variable: "consul_url"
       type: string
       required: false

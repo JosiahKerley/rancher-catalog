@@ -7,13 +7,13 @@ web:
   ports:
     - 80:80
   volumes:
-    - ${cluster_volume_path}:/opt/etherpad-lite/var
+    - ${cluster_volume_path}/web:/opt/etherpad-lite/var
   links:
     - db:mysql
 
 db:
   image: mysql
   environment:
-    - MYSQL_ROOT_PASSWORD
+    - MYSQL_ROOT_PASSWORD=${mysql_root_password}
   volumes:
-    - ./data/mysql:/var/lib/mysql
+    - ${cluster_volume_path}/db:/var/lib/mysql
