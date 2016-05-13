@@ -1,0 +1,48 @@
+dir:
+  image: xtreemfs/xtreemfs-dir
+  net: host
+  volumes:
+    - "${cluster_volume_path}/:/xtreemfs_data"
+  ports:
+    - "30638:30638"
+    - "32638:32638"
+
+mrc:
+  image: xtreemfs/xtreemfs-mrc
+  net: host
+  volumes:
+    - "${cluster_volume_path}/:/xtreemfs_data"
+  ports:
+    - "30636:30636"
+    - "32636:32636"
+
+osd:
+  image: xtreemfs/xtreemfs-osd
+  net: host
+  labels:
+    io.rancher.scheduler.affinity:host_label: role=${osd_node_label}
+  volumes:
+    - "${cluster_volume_path}/:/xtreemfs_data"
+  ports:
+    - "30640:30640"
+    - "32640:32640"
+lb:
+  ports:
+  - 30638
+  - 32638
+  - 30636
+  - 32636
+  - 30640
+  - 32640
+  labels:
+    io.rancher.scheduler.global: 'true'
+    io.rancher.loadbalancer.ssl.ports: '443'
+    io.rancher.scheduler.affinity:host_label: role=${node_label}
+    io.rancher.loadbalancer.target.repo-lb: ${fqdn}
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - dir
+  - mrc
+  - osd
+  stdin_open: true

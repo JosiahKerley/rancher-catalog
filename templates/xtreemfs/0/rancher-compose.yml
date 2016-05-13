@@ -1,0 +1,40 @@
+.catalog:
+  name: "XtreemFS"
+  version: 0.0.1
+  description: XtreemFS storage
+  questions:
+
+    - variable: "fqdn"
+      type: string
+      required: true
+      default: 'xtreemfs.localdomain'
+      label: "FQDN"
+      description: "FQDN for virtual host"
+
+    - variable: "osd_node_label"
+      type: string
+      required: true
+      default: 'osd'
+      label: "OSD Node Role Label"
+      description: "Node role label for object store"
+
+    - variable: "cluster_volume_path"
+      type: string
+      required: true
+      default: '/var/lib/xtreemfs'
+      label: "Volume Path"
+      description: "Cluster volume shared data mount path"
+
+
+osd:
+  scale: 3
+lb:
+  load_balancer_config:
+    haproxy_config: {}
+  default_cert: load-balancer
+  health_check:
+    port: 30638
+    interval: 2000
+    unhealthy_threshold: 3
+    healthy_threshold: 2
+    response_timeout: 2000
