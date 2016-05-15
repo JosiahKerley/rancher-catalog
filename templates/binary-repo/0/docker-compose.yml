@@ -1,14 +1,13 @@
 repo:
-  image: josiahkerley/binaryrepo
-  net: none
-  environment:
-    - CONSUL_URL="consul_url"
-    - CONSUL_ENCRYPT="consul_url"
-    - CONSUL_DATACENTER="consul_url"
+  image: nginx
+  volume_driver: glusterfs
   volumes:
-    - /usr/share/nginx/html
+    - repo:/usr/share/nginx/html
   labels:
     io.rancher.container.start_once: true
+  commands:
+    - echo 'master_process on;daemon off;pid /dev/null;user root;worker_processes 16;events {worker_connections 1024;}http {include /etc/nginx/mime.types;default_type  application/octet-stream;server {listen 80;client_max_body_size 500G;location /health {access_log off;default_type application/json;return 200 '{"service":"available"}';}location / {root /usr/share/nginx/html;client_body_temp_path  client_tmp;dav_methods PUT DELETE MKCOL COPY MOVE;create_full_put_path on; dav_access group:rw all:r;autoindex on;}}}' > /etc/nginx/nginx.conf
+    - nginx -c /etc/nginx/nginx.conf
 
 repo-lb:
   expose:
@@ -18,3 +17,6 @@ repo-lb:
   links:
   - repo:repo
   stdin_open: true
+
+
+
