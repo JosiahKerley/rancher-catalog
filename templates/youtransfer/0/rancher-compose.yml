@@ -18,12 +18,19 @@
       label: "Node Role Label"
       description: "Node role label for loadbalancer"
 
+    - variable: "volume_driver"
+      type: string
+      required: true
+      default: 'glusterfs'
+      label: "Volume Driver"
+      description: "Driver for web instances to use for storage"
+
     - variable: "cluster_volume_path"
       type: string
       required: true
-      default: '/mnt/dockervolumes/youtransfer'
+      default: 'youtransfer'
       label: "Volume Path"
-      description: "Cluster volume shared data mount path"
+      description: "Source volume for cluster"
 
     - variable: "mysql_root_password"
       type: string

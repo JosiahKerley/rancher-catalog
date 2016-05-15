@@ -14,6 +14,7 @@ lb:
 web:
   ports:
   - 5000
+  volume_driver: ${volume_driver}
   image: remie/youtransfer:stable
   volumes:
     - ${cluster_volume_path}/uploads:/opt/youtransfer/uploads
