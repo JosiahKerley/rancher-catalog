@@ -1,0 +1,17 @@
+Minecraft:
+  environment:
+    EULA: ${EULA}
+    VERSION: ${VERSION}
+    DIFFICULTY: ${DIFFICULTY}
+    MODE: ${MODE}
+    PVP: ${PVP}
+    WHITELIST: ${WHITELIST}
+    OPS: ${OPS}
+    MOTD: ${MOTD}
+    SEED: ${SEED}
+    WORLD: ${WORLD}
+  tty: true
+  image: itzg/minecraft-server
+  stdin_open: true
+  ports:
+  - 25565:25565/tcp
